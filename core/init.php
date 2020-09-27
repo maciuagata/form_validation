@@ -5,8 +5,8 @@ session_start();
 $GLOBALS['config'] = array(
     'mysql' => array(
         'host' => '127.0.0.1',
-        'username' => 'agata',
-        'password' => 'agata',
+        'username' => 'root',
+        'password' => '',
         'db' => 'validation'
     ),
     'remember' => array(
