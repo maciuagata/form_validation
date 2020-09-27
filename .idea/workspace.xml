@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4df2c285-456d-4e94-8b96-035530f7ba53" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="60ae9c5e-99fe-47d0-9bd1-ac775f3d32c0" name="localhost" port="8888" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectId" id="1i6Z72PQ8uYo3uHWHlGH7ZupKR5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8888">
+      <CommandLine parameters="-dxdebug.remote_connect_back=1 -dxdebug.remote_enable=1" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4df2c285-456d-4e94-8b96-035530f7ba53" name="Default Changelist" comment="" />
+      <created>1601229830928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601229830928</updated>
+      <workItem from="1601229832012" duration="6118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="233" width="824" height="691" key="#CLI_Interpreters" timestamp="1601229870440">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="574" y="233" width="824" height="691" key="#CLI_Interpreters/72.27.1848.1053@72.27.1848.1053" timestamp="1601229870440" />
+    <state x="641" y="196" width="700" height="759" key="#PHP" timestamp="1601229872145">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="641" y="196" width="700" height="759" key="#PHP/72.27.1848.1053@72.27.1848.1053" timestamp="1601229872145" />
+    <state x="454" y="211" width="1084" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601230235083">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="454" y="211" width="1084" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601230235083" />
+    <state x="754" y="298" key="#xdebugger.evaluate" timestamp="1601230606559">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="754" y="298" key="#xdebugger.evaluate/72.27.1848.1053@72.27.1848.1053" timestamp="1601230606559" />
+    <state width="1802" height="499" key="GridCell.Tab.0.bottom" timestamp="1601233541869">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541869" />
+    <state width="1802" height="499" key="GridCell.Tab.0.center" timestamp="1601233541866">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541866" />
+    <state width="1802" height="499" key="GridCell.Tab.0.left" timestamp="1601233541865">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541864" />
+    <state width="1802" height="499" key="GridCell.Tab.0.right" timestamp="1601233541868">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541868" />
+    <state width="1802" height="499" key="GridCell.Tab.1.bottom" timestamp="1601233541873">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541873" />
+    <state width="1802" height="499" key="GridCell.Tab.1.center" timestamp="1601233541871">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541871" />
+    <state width="1802" height="499" key="GridCell.Tab.1.left" timestamp="1601233541870">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541870" />
+    <state width="1802" height="499" key="GridCell.Tab.1.right" timestamp="1601233541872">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="499" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1601233541872" />
+  </component>
+</project>
