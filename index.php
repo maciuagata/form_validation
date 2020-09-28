@@ -13,7 +13,7 @@ if($user->isLoggedIn()) {
 ?>
 
         <p>Hello, <?php echo escape($data->name); ?></p>
-    <p>Your user id and your profile : <a href="profile.php?user=<?php echo escape($user->data()->user_id);?>"><?php echo escape($user->data()->user_id); ?></a></p>
+    <p>Your user id and your profile is here: <a href="profile.php?user=<?php echo escape($user->data()->user_id);?>"><?php echo escape($user->data()->user_id); ?></a></p>
 
     <ul>
         <li><a href="logout.php">Log out</a></li>
