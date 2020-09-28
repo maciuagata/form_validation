@@ -70,7 +70,7 @@ class DB {
     }
 
 
-    // function that lets you insert rows by just entering the table and the fields and values in array format
+    //function that lets you insert rows by just entering the table and the fields and values in array format
     public function insert($table, $fields = array()) {
         $keys = array_keys($fields);
         $values = null;
@@ -93,7 +93,7 @@ class DB {
         return false;
     }
 
-    // function for updating rows
+    //function for updating rows
     public function update($table, $id, $fields) {
         $set = '';
         $x = 1;
@@ -115,33 +115,33 @@ class DB {
         return false;
     }
 
-    // function for deleting rows in a table
+    //function for deleting rows in a table
     public function delete($table, $where) {
         return $this->action('DELETE ', $table, $where);
     }
 
-    // function for performing only SELECT SQL queries
+    //function for performing only SELECT SQL queries
     public function get($table, $where) {
         return $this->action('SELECT *', $table, $where);
     }
 
-    // pull the results from a query by using this function
+    //pull the results from a query by using this function
     public function results() {
         return $this->_results;
     }
 
-    // pull the first value of a SELECT query by using this function
+    //pull the first value of a SELECT query by using this function
     public function first() {
         $data = $this->results();
         return $data[0];
     }
 
-    // Count the number of results from your SQL queries
+    //Count the number of results from your SQL queries
     public function count() {
         return $this->_count;
     }
 
-    // Show all errors that may possibly occur during SQL queries
+    //Show all errors that may possibly occur during SQL queries
     public function error() {
         return $this->_error;
     }

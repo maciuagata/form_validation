@@ -7,9 +7,9 @@ if(Input::exists()) {
     //checks if input fields are set
 
     if(Token::check(Input::get('token'))) {
-        // checks if security token generated on the page matches the one being submitted
+        //checks if security token generated on the page matches the one being submitted
 
-        // create rules for the fields being submitted on page
+        //create rules for the fields being submitted on page
         $validate = new Validate();
         $validate->check($_POST, array(
             'email' => array('required' => true),

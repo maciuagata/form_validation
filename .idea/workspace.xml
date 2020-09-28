@@ -6,18 +6,10 @@
       <change beforePath="$PROJECT_DIR$/classes/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Cookie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/DB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Hash.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Hash.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Input.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Input.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Redirect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Validate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601229830928</updated>
       <workItem from="1601229832012" duration="8147000" />
-      <workItem from="1601312196125" duration="5416000" />
+      <workItem from="1601312196125" duration="6053000" />
     </task>
     <servers />
   </component>

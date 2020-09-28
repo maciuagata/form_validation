@@ -3,7 +3,7 @@
 class Config {
     public static function get($path = null) {
 
-        // this function allows to pull relevant information from the GLOBALS array in core/init.php
+        //this function allows to pull relevant information from the GLOBALS array in core/init.php
 
         if ($path){
             $config = $GLOBALS['config'];
