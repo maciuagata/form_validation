@@ -1,8 +1,13 @@
 <?php
 
+/*Retrieve and get input values with
+2 functions*/
+
 class Input {
+    //check if exists post
     public static function exists($type = 'post') {
         switch($type) {
+            //check if empty or not empty post and get
             case 'post':
                 return (!empty($_POST)) ? true : false;
                 break;

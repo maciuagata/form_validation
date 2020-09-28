@@ -13,7 +13,7 @@ if(!$user_id = Input::get('user')) {
     } else {
         $data = $user->data();
 ?>
-
+// shows the info about user
         <h3>Name: <?php echo escape($data->name); ?></h3>
         <p>Email: <?php echo escape($data->email); ?></p>
         <p>Last name: <?php echo escape($data->last_name); ?></p>

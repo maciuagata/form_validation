@@ -1,5 +1,6 @@
 <?php
 
+// This file serves as the base
 session_start();
 
 $GLOBALS['config'] = array(

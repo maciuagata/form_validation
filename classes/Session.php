@@ -1,6 +1,9 @@
 <?php
 
 class Session {
+
+    // Create, check, and delete sessions for user activities also, you can show specific messages for specific session
+
     public static function exists($name) {
         return (isset($_SESSION[$name])) ? true : false;
     }

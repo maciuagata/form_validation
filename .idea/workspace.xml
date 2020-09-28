@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4df2c285-456d-4e94-8b96-035530f7ba53" name="Default Changelist" comment="" />
+    <list default="true" id="4df2c285-456d-4e94-8b96-035530f7ba53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Hash.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Hash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Input.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Redirect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Validate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +26,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpServers">
     <servers>
@@ -41,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601229830928</updated>
-      <workItem from="1601229832012" duration="7236000" />
+      <workItem from="1601229832012" duration="8147000" />
+      <workItem from="1601312196125" duration="5416000" />
     </task>
     <servers />
   </component>

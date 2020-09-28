@@ -1,5 +1,6 @@
 <?php
 
+//Encode strings with sha256 algorithm
 
 class Hash {
     public static function make($string) {

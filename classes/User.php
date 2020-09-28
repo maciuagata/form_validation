@@ -2,6 +2,9 @@
 
 
 class User {
+
+    //Specific functions created to create user accounts, update user information, find user information, login in users, check if user is logged in, and pull all user information in one function
+
     private $_db,
             $_data,
             $_sessionName,

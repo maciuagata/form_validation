@@ -1,10 +1,17 @@
 <?php
 
+//include a php file
 require_once 'core/init.php';
 
+// check sent data
 if (Input::exists()) {
+    //check if input fields are set
+
     if(Token::check(Input::get('token'))) {
+        // security check ensuring the token being submitted is the same as the one generated on the page
         $validate = new Validate();
+
+        //checks the written rules
          $validate->check($_POST, array(
             'email' => array(
                 'email' => 'Email',
@@ -41,10 +48,12 @@ if (Input::exists()) {
             ),
         ));
 
+        //When validate is passed, create new user
         if ($validate->passed()) {
             $user = new User();
 
             try {
+                // Create a new user and inserting entries in users table.
                 $user->create(array(
                     'email' => Input::get('email'),
                     'name' => Input::get('name'),
@@ -55,20 +64,24 @@ if (Input::exists()) {
                     'last_login_at' => date('Y-m-d H:i:s')
                 ));
 
+                // display the success message when account is created (once)
                 Session::flash('home', 'Welcome ' . Input::get('name') . '! Your account has been registered. You may now log in.');
+                //redirect to homepage
                 Redirect::to('index.php');
+                //when catch an error,shows it
             } catch(Exception $e) {
                 $_error = false;
                 echo $_error, '<br>';
             }
         } else {
+            //displays error if any should occur.
             foreach ($validate->errors() as $error) {
                 echo $error . "<br>";
             }
         }
     }
 }
-
+//function check valid email
 function validEmail($email){
     // Check the formatting is correct
     if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
@@ -89,7 +102,7 @@ function validEmail($email){
 <form action="" method="post">
     <div class="field">
         <label for="email">Email</label>
-        <input type="text" name="email" pattern="a-z._%+-].+@domenas.com" value="<?php echo escape(Input::get('email')); ?>" id="email">
+        <input type="text" name="email" pattern="[a-z._%+-].+@domenas.com" value="<?php echo escape(Input::get('email')); ?>" id="email">
     </div>
 
     <div class="field">
